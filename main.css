@@ -1,0 +1,60 @@
+
+.main {
+    background-color: #2C514C;
+    color: white;
+}
+
+.banner {
+    margin-bottom: 25px;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight:800;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.bio {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center; 
+}
+
+.subtitles {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight:600;
+}
+
+.project-types {
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    padding: 2px, 2px, 2px, 2px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.profile {
+    height: 400px;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 25px
+}
+
+.greeting {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight:800;
+}
