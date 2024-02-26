@@ -79,7 +79,6 @@ a:hover {
     column-gap: 40px;
     justify-content: center;
     margin-top:225px;
-    margin-bottom: 100px;
 }
 
 .profile {
@@ -234,4 +233,9 @@ a:hover {
     text-decoration: underline;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.spacer {
+    margin-top: 100px;
+    visibility: hidden;
 }
