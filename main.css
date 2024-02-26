@@ -1,38 +1,72 @@
 
 .main {
-    background-color: #2C514C;
-    color: white;
+    background-color: white;
+    color: #0d1f2d;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-image: linear-gradient(45deg, white, #2c514c);
+    background-size: 300%;
 }
 
 .banner {
+    margin-top: 25px;
     margin-bottom: 25px;
+    background-color: #2c514c;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    left: 200px;
+    right: 200px;
 }
 
 .name {
-    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    letter-spacing: 5px;
     font-weight:800;
-    margin-bottom: 0px;
-    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex: 5;
+    flex-direction: row;
+    justify-content: right;
+    column-gap: 40px;
+    font-size: 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .bio {
-    font-family: 'Montserrat', sans-serif; 
     font-weight: 400;
     font-size: 12px;
-    text-align: center; 
 }
 
 .subtitles {
-    font-family: 'Montserrat', sans-serif; 
-    font-weight:600;
+    font-size: 40px;
+    font-weight:800;
+    color: #2c514c;
+    text-decoration: underline;
 }
 
 .project-types {
     border-radius: 8px;
     background-color: white;
-    font-family: 'Montserrat', sans-serif; 
     font-weight: 600;
     padding: 2px, 2px, 2px, 2px;
 }
@@ -41,20 +75,87 @@
     display: flex;
     flex-direction: row;
     flex: 2;
-    column-gap: 10px;
+    column-gap: 40px;
     justify-content: center;
+    margin-top:225px;
+    margin-bottom: 100px;
 }
 
 .profile {
-    height: 400px;
+    height: 300px;
     width: auto;
-    border: 2px solid white;
-    border-radius: 25px
+    border-radius: 50px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: top;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .greeting {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 55px;
+    font-weight:600;
     letter-spacing: 5px;
     font-weight:800;
+    margin-bottom: 0px;
+    margin-top:0px;
+    align-self: center;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row; 
+    flex: 2;
+    justify-content: top;
+    column-gap: 25px;
+    margin-bottom: 50px;
+}
+
+.company-logos {
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+.company-name{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.position-title {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.work-dates {
+    font-weight: 600;
+    color: grey;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+
+.experience-content {
+    margin-top: 0px;
+    margin-bottom:0px;
+
+}
+
+.experience-bullet {
+    margin-top: 8px;
+    margin-bottom: 0px;
+    line-height: 150%;
 }
