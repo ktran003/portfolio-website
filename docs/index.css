@@ -213,3 +213,25 @@ a:hover {
     display: inline;
     margin-right: 10px;
 }
+
+.contact-section {
+    font-size: 60px;
+    font-weight:800;
+    color: #2c514c;
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.connect {
+    margin-bottom: 25px;
+}
+
+.social-link {
+    margin-top: 0px;
+    padding-top: 0px;
+    color:#0d1f2d;
+    text-decoration: underline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
