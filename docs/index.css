@@ -62,6 +62,7 @@ a:hover {
     font-weight:800;
     color: #2c514c;
     text-decoration: underline;
+    margin-top: 100px;
 }
 
 .project-types {
@@ -158,4 +159,57 @@ a:hover {
     margin-top: 8px;
     margin-bottom: 0px;
     line-height: 150%;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    column-gap: 25px;
+}
+
+.projects-section::-webkit-scrollbar {
+    display: none;
+  }
+ 
+
+.project {
+    background-color: #2c514c;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around, top;
+    color: white;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 15px;
+
+}
+
+.project-preview {
+    height: 300px;
+    width: 500px;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.project-description {
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+.project-name {
+    align-items: start;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.project-tool {
+    border: 2px solid white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    display: inline;
+    margin-right: 10px;
 }
